@@ -46,7 +46,7 @@
 			</div>
 		</nav>
 		<div class="container-fluid mt-3">
-            <div class="row col-sm-10 main mx-auto">
+		    <div class="row col-sm-10 main mx-auto">
 				<div th:if="${flash}" th:text="${flash.getMessage()}" th:class="${'alert alert-' + flash.getKey()}" role="alert"></div>
 				<div layout:fragment="content" class="px-0"></div>
 			</div>
